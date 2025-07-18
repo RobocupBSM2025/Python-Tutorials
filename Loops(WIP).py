@@ -125,9 +125,43 @@ for numbee in range(1, 5):
 
 Nested Loops are when you have loops in loops, this can be use to multiple digits together,
 Seperate arrays futher down, have combinations, have you check if things match, and many other things.
+I will not add these as I am stressed for time and want to be quick so if someone else wants to add examples
+in the futrure they can.
 
 """
 
-print("\n \nNESTED LOOPS : \n \n")
+""" 
 
-# 
+While loops are like for loops, but they only stop when either their condition is false or they are broken (I will 
+explain that in a little bit.
+
+"""
+
+xyz = 1
+zzz = 0
+
+while xyz < 31 :
+
+  xyz = xyz * 2 - zzz
+  zzz = zzz + 1
+
+"""
+
+The last things are modiers : Break, Continue, Pass
+  Break stops the entire loop it is in
+  Continue skipp ahead to the next loop 
+  Pass allows for the for loop to be empty
+
+"""
+
+for kl in "kl":
+  print(kl)
+  break
+
+for jkl in "jkl":
+  print(jkl)
+  continue
+  print("Ha you will never see me")
+
+for hjkl in "hjkl":
+  pass
