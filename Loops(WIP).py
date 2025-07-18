@@ -130,4 +130,4 @@ Seperate arrays futher down, have combinations, have you check if things match, 
 
 print("\n \nNESTED LOOPS : \n \n")
 
-#
+# 
