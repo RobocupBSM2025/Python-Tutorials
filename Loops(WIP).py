@@ -130,6 +130,14 @@ in the futrure they can.
 
 """
 
+for fgh in ["rfc", "tgv", "yhb"]:
+  for xmx in fgh:
+    print(f"\n{xmx} xmx")
+
+for xnx in range(1,11, 4):
+  for hgh in range (2,76,13):
+    print(f"\n{hgh * xnx} = {xnx} * {hgh} \n")
+
 """ 
 
 While loops are like for loops, but they only stop when either their condition is false or they are broken (I will 
