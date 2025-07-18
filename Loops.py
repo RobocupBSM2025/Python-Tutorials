@@ -115,7 +115,7 @@ print(4)
 
 # --------------------
 
-print("\n 1 to 4 :") #Addinng Spaces
+print("\n 1 to 4 :") #Addinng Spaces 
 
 for numbee in range(1, 5):
   
@@ -125,11 +125,9 @@ for numbee in range(1, 5):
 
 Nested Loops are when you have loops in loops, this can be use to multiple digits together,
 Seperate arrays futher down, have combinations, have you check if things match, and many other things.
-I will not add these as I am stressed for time and want to be quick so if someone else wants to add examples
-in the futrure they can.
 
 """
-
+ 
 for fgh in ["rfc", "tgv", "yhb"]:
   for xmx in fgh:
     print(f"\n{xmx} xmx")
