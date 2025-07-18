@@ -104,4 +104,114 @@ print("\n ... \n ... \n ... I dont think it did something so the thing was skipp
 
 print("\n \nELSE STATEMENT : \n \n")
 
-print("
+print("if True != True: idk, else I DO know \n")
+
+if True != True :
+
+  print("i dont know")
+
+else :
+
+  print("I DO Know")
+
+# Elif statements
+
+print("\n Elif \n")
+
+m = 4
+n = 2
+p = 5
+l = 4
+
+if m == n :
+
+  print("m = n")
+
+elif p > l :
+
+  print("p > l")
+
+elif m == l :
+
+  print("m = l")
+
+else :
+
+  print("I am tired")
+
+# The main way to use the use it is to check the if something can be only one thing but they qualify for mutliple so you want to chose one
+
+print("\n \nRANDOM NUMBER GENERATOR RACE PLACEMENT : \n\n")
+
+placement = randint(1, 102) #Random number b/t 1 and 101
+
+if placement == 1 :
+
+  print("Yay you got 1st place. \n")
+
+elif placement == 2 :
+
+  print("Yay you are the first loser. \n")
+
+elif placement == 3 :
+
+  print("You are 3rd, can you stop ruining my podium by getting in the way of my pictures. \n")
+
+elif placement <= 5 :
+
+  print("Top 5, wow such a hot shot\n")
+
+elif placement <= 10 :
+
+  print("In the top 10. that means you can at least do something\n")
+
+elif placement <= 25 :
+
+  print("Wow you beat 75% of people, you do know beating people is assult though\n")
+
+elif placement == 42 :
+
+  print("You have been arrested for using steroids\n")
+
+elif placement <= 50 :
+
+  print("You have see the glass as half full to even look at me with that place\n")
+
+elif placement <= 99 :
+
+  print("At least you are not last place, here have a participation trophy it is a 49th of my student loan debts. I expect it to be paid by Monday.\n")
+
+elif placement == 100 :
+
+  print("Reaching 100th is an achivement in itself and I think you shouldbe rewarded. You know have to write an essay on how this is the best experience you have ever had and do a public speach about it to the entire school. OR ELSE, well nothing.\n")
+
+elif placement > 100 :
+
+  print("Trespasser there was only 100 people invited and I am number 0 above all of you so someonw has sneaked in. Anyway imagine loosing so badly that you cant even reach the lowest place.\n")
+
+else :
+
+  print("You monster, how the heck did you manage to do this. It should be impossible, unless you ... you ... you (Proceeds to fall asleep perminatly due to a sudden adn unexpected head popping like a balloon for no reason. \n+25 Exp Silent Takedown\n+50 Exp Unnoticed Kill (Target) \n+50 Exp Accident Kill (Target)\n")
+
+"""
+
+Additional extra things - And, or, not nested if (I think you can understand nested, hopefully, I just dont want this to 
+be too long), pass, and shorthand.
+
+"""
+
+print("/nMULTIPLE CONDITION MODIFIERS : \n \n")
+
+if True == True and False != True:
+  # I got lazy and am not using print and ending up using nested if so yay
+  if True == False or False == False:
+    if not True != True :
+      pass # As if statements cannot be emtpy ussing pass makes the be no erros which would show up if there was nothing
+
+#SHort hand
+
+print("SHORTHAND : \n\n")
+
+if 1 < 2: print("sorry if this was confuZING (Noice effect link bouncing off metal)")
+
+print("I lied") if "I liead" == "The Truth" else print("Yeah sorry, sorry if my talking and trying to make this more fund was annoying or anythin :) Are we good? :)")
